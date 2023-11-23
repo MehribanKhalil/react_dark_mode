@@ -1,0 +1,28 @@
+
+:root{
+  --main-bg-color:white;
+  --main-text-color:black;
+}
+
+
+.dark{
+  --main-bg-color:black;
+  --main-text-color:white;
+  transition: all .2s ease;
+}
+
+
+body{
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+}
+
+h1{
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+}
+
+p{
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+}
